@@ -3,7 +3,7 @@ Scrape TripAdvisor website for reviews
 
 Scrape reviews from TripAdvisor and output to text file.
 
-User will need to build a remote webdriver (or just use requests library). I chose the remote webdriver using selenium so that I could build out a tool that would eventually be able to interact with websites (click, fill in forms, etc.)
+User will need to build a remote webdriver (or just use requests library). I chose the remote webdriver using selenium so that I could build out a tool that would eventually be able to interact with websites (find elements, click buttons, drop-downs, fill in forms, etc.)
 
 schema is where the personalization comes from. div and span tags may change for different reviewed venues. Was the same for Florida Aquarium and Space Needle though.
 
